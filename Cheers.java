@@ -5,7 +5,7 @@ public class Cheers {
                 int n = Integer.parseInt(args[1]);
                 System.out.println(word);
                 int length = word.length();
-                String check = "AEFHILMNORSX";
+                String check = "AEFHILMNORSXaefhilmnorsx";
                 for (int i = 0; i < length; i++) {
                         String pre;
                         char c = word.charAt(i);
