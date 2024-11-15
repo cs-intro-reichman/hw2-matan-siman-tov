@@ -13,7 +13,7 @@ public class Cheers {
                                 pre = "an";      
                         }
                         else {
-                                pre = "a";
+                                pre = "a ";
                         }
                         System.out.println("Give me " + pre + " " + c + ": " + c + "!");
                 }
