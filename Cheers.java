@@ -11,7 +11,6 @@ public class Cheers {
                         word = word + c;
                 }
                 int n = Integer.parseInt(args[1]);
-                System.out.println(word);
                 int length = word.length();
                 String check = "AEFHILMNORSX";
                 for (int i = 0; i < length; i++) {
